@@ -15,7 +15,7 @@ printf("Who are you?\n");
 printf(">");
 scanf("%s", name);
 
-printf("Hello, %s!",name);
+printf("Hello, %s!\n",name);
 
 printf("Tossing a coin...\n");
 
@@ -37,10 +37,10 @@ for( i=0 ; i<3 ; i++ ){
 printf("Heads: %d, Tails: %d\n", Hcount, Tcount);
 
 if(Hcount >= Tcount)
-printf("You won!\n");
+printf("%s won!\n", name);
 
 else
-printf("You lost\n");
+printf("%s lost\n", name);
 
 return 0;
 
