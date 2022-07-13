@@ -29,6 +29,12 @@ for( i=0 ; i<3 ; i++ ){
 
 printf("Heads: %d, Tails: %d\n", Hcount, Tcount);
 
+if(Hcount >= Tcount)
+printf("You won!\n");
+
+else
+printf("You lost\n");
+
 return 0;
 
 }
